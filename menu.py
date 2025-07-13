@@ -21,7 +21,25 @@ def mostrar_menu(caja, cola):
         elif opcion == "2":
             cliente = cola.siguiente_cliente()
             if cliente:
-                metodo_pago = input("Ingrese el método de pago: ")
+                while True:
+                    print("\nMétodos de pago disponibles:")
+                    print("1. Efectivo")
+                    print("2. Tarjeta")
+                    print("3. Pago movil")
+                    metodo_pago = input("Seleccione el método de pago (1, 2, 3): ")
+                    
+                    if metodo_pago == "1":
+                        metodo_pago = "Efectivo"
+                        break
+                    elif metodo_pago == "2":
+                        metodo_pago = "Tarjeta"
+                        break
+                    elif metodo_pago == "3":
+                        metodo_pago = "Pago movil"
+                        break
+                    else:
+                        print("Opción no válida. Por favor seleccione 1 para Efectivo o 2 para Tarjeta.")
+                
                 caja.procesar_pago(cliente, metodo_pago=metodo_pago)
             else:
                 print("No hay clientes en la cola.")

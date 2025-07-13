@@ -16,7 +16,7 @@ class Caja:
             "monto": cliente.monto,
             "metodo_pago": metodo_pago
         })
-        print(f"Pago procesado para {cliente.cedula} por {cliente.monto} usando {metodo_pago}")
+        print(f"Pago procesado para {cliente.cedula} por {cliente.monto}$ usando {metodo_pago}")
 
     def generar_reporte(self):
         print("=== REPORTE DE PAGOS ===")
