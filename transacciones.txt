@@ -1,0 +1,7 @@
+ID Pago | ID Compra | Método de Pago | Monto | Fecha de Pago | Cédula | Nombre | Email
+------------------------------------------------------------------------------------------
+1 | 1 | tarjeta | $10.00 | 2025-07-17 08:48:10 | 31545512 | Jorge Luis Montiel | jorgelmc05@gmail.com
+2 | 2 | pago movil | $100.00 | 2025-07-17 09:00:44 | 12345678 | jesus | locoma@gmail.com
+3 | 3 | efectivo | $30.00 | 2025-07-17 09:02:54 | 12345678 | jesus | locoma@gmail.com
+4 | 4 | pago movil | $32.00 | 2025-07-17 09:13:13 | 20202020 | alvarez | oro@gmail.com
+5 | 5 | efectivo | $40.00 | 2025-07-17 14:51:50 | 1234567 | tulio | yulio@gmail.com
